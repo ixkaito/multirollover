@@ -2,6 +2,7 @@ jquery.multirollover
 ====================
 
 jquery.multirollover is a jQuery plugin that offers a way to rollover multiple images simultaneously.
+Requires jQuery v1.7 or later.
 
 Copyright (c) 2013 KITE
 
