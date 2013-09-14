@@ -6,9 +6,7 @@ multiRollover is a jQuery plugin that offers a way to rollover multiple images s
 Copyright (c) 2013 KITE
 
 Dual licensed under the MIT and GPL licenses:
-
 http://www.opensource.org/licenses/mit-license.php
-
 http://www.gnu.org/licenses/gpl.html
 
 
