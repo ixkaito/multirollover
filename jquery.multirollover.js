@@ -59,7 +59,7 @@
 				z = z + 1;
 			}
 			
-			src	= $(this).attr('src');
+			src = $(this).attr('src');
 			src = src.replace(/^(.*)(\.jpg|\.gif|\.png)$/g, '$1' + s + '$2');
 			
 			$(this).clone().attr('src', src).addClass('multirollover-image-on').insertBefore($(this)).css({
