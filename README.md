@@ -20,7 +20,7 @@ Load files in your HTML document. Make sure you also add the jQuery library.
 Example:
 
     <head>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="test/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type="text/javascript" src="jquery.multirollover.js"></script>
     </head>
 
@@ -49,8 +49,8 @@ May also be passed an optional options object which will extend the default valu
     <script>
         $(document).ready(function() {
             $('.hover').multirollover({
-                suffix    : '-hover',
-                duration  : 500
+                suffix      : '-hover',
+                duration    : 500
             });
         });
     </script>
@@ -60,18 +60,18 @@ If using transparent PNG, enable the crossfade option.
     <script>
         $(document).ready(function() {
             $('.hover').multirollover({
-                crossfade : true
+                crossfade   : true
             });
         });
     </script>
 
 Default values:
 
-    suffix    : '-on',
-    duration  : 100,
-    crossfade : false
+    suffix      : '-on',
+    duration    : 100,
+    crossfade   : false
 
-    
+
 Bug tracker
 -----------
 
