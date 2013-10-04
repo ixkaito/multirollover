@@ -2,7 +2,7 @@
  * multiRollover - jQuery Plugin
  * version: 1.0 (Fri, 13 Sep 2013)
  * @requires jQuery v1.7 or later
- * IE 8 (if using transparent PNG, IE9) or later
+ * IE 8 (IE9, if using transparent PNG) or later
  *
  * Copyright (c) 2013 KITE
  *
@@ -38,7 +38,7 @@
 				if( $(this).css('display') == 'inline' && !$(this).parent().hasClass('multirollover-image')){
 					$(this).wrap('<span class="multirollover-image" style="position:relative; display:inline-block;">');
 					$(this).css('position','static');
-				}				
+				}
 
 			}
 			
@@ -115,6 +115,6 @@
 			}
 		});
 		
-	}
+	};
 
 })(jQuery);
