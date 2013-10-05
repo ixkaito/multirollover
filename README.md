@@ -28,7 +28,7 @@ Create your HTML like this:
 
 or multiple images in a single element to be hovered:
 
-	<p class="hover"><img src="sample-image-1.jpg" /><img src="sample-image-2.jpg" /><img src="sample-image-3.jpg" /></p>
+	<a href="http://example.com" class="hover"><img src="sample-image-1.jpg" /><img src="sample-image-2.jpg" /><img src="sample-image-3.jpg" /></p>
 
 Add the rollover image with the suffix into the same directory as the original image.
 The rollover image should ideally be the same size as the original one.
