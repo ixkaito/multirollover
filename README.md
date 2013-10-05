@@ -19,10 +19,8 @@ Load files in your HTML document. Make sure you also add the jQuery library.
 
 Example:
 
-	<head>
-		<script type="test/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script type="text/javascript" src="jquery.multirollover.js"></script>
-	</head>
+	<script type="test/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.multirollover.js"></script>
 
 Create your HTML like this:
 
