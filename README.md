@@ -4,11 +4,17 @@ jquery.multirollover
 jquery.multirollover is a jQuery plugin that offers a way to rollover multiple images simultaneously.
 Requires jQuery v1.7 or later.
 
-Copyright (c) 2013 KITE
-
 Dual licensed under the MIT and GPL licenses: 
 http://www.opensource.org/licenses/mit-license.php
 http://www.gnu.org/licenses/gpl.html
+
+Plugin page:
+https://github.com/ixkaito/multirollover
+
+Download URL:
+https://github.com/ixkaito/multirollover/archive/master.zip
+
+Copyright (c) 2013 KITE
 
 
 How to use
