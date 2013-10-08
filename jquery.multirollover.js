@@ -4,11 +4,18 @@
  * @requires jQuery v1.7 or later
  * IE 8 (IE9, if using transparent PNG) or later
  *
- * Copyright (c) 2013 KITE
- *
- * Dual licensed under the MIT and GPL Version 2 licenses:
+ * Dual licensed under the MIT and GPL licenses: 
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
+ * 
+ * Plugin page:
+ * https://github.com/ixkaito/multirollover
+ * 
+ * Download URL:
+ * https://github.com/ixkaito/multirollover/archive/master.zip
+ * 
+ * Copyright (c) 2013 KITE
+ *
  */
 
 (function ($) {
