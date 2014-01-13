@@ -4,16 +4,16 @@
  * @requires jQuery v1.7 or later
  * IE 8 (IE9, if using transparent PNG) or later
  *
- * Dual licensed under the MIT and GPL licenses: 
+ * Dual licensed under the MIT and GPL licenses:
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
- * 
+ *
  * Plugin page:
  * https://github.com/ixkaito/multirollover
- * 
+ *
  * Download URL:
  * https://github.com/ixkaito/multirollover/archive/master.zip
- * 
+ *
  * Copyright (c) 2013 KITE
  *
  */
@@ -31,52 +31,6 @@
 		var s = opts.suffix,
 			d = opts.duration,
 			c = opts.crossfade;
-<<<<<<< HEAD
-=======
-		
-		$('img', this).each(function(){
-			
-			var p, i, v, z, src, o;
-			
-			p = $(this).css('position');
-			v = $(this).css('vertical-align');
-			z = $(this).css('z-index');
-
-			if(p == 'static' || p == 'relative'){
-			
-				if( $(this).css('display') == 'inline' && !$(this).parent().hasClass('multirollover-image')){
-					$(this).wrap('<span class="multirollover-image" style="position:relative; display:inline-block;">');
-					$(this).css('position','static');
-				}
-
-			}
-			
-			i = $(this).parent('.multirollover-image');
-			
-			if(p == 'relative'){
-				i.css('top' , $(this).css('top'));
-				i.css('bottom' , $(this).css('bottom'));
-				i.css('left' , $(this).css('left'));
-				i.css('right' , $(this).css('right'));
-			}
-			
-			i.css('vertical-align', v);
-			
-			if(z == 'auto'){
-				z = 1;
-			}else{
-				z = z + 1;
-			}
-			
-			src = $(this).attr('src');
-			src = src.replace(/^(.*)(\.jpg|\.jpeg|\.gif|\.png)$/g, '$1' + s + '$2');
-			
-			$(this).clone().attr('src', src).addClass('multirollover-image-on').insertBefore($(this)).css({
-				position	: 'absolute',
-				zIndex		: z,
-				opacity		: 0
-			});
->>>>>>> f0c0691ca874925f896931d23f0f56f5a08d67fb
 
 		return this.each(function(){
 
@@ -170,10 +124,6 @@
 				}
 			});
 		});
-<<<<<<< HEAD
-=======
-		
->>>>>>> f0c0691ca874925f896931d23f0f56f5a08d67fb
 	};
 
 })(jQuery);
