@@ -4,7 +4,7 @@ jquery.multirollover
 jquery.multirollover is a jQuery plugin that offers a way to rollover multiple images simultaneously.
 Requires jQuery v1.7 or later.
 
-Dual licensed under the MIT and GPL licenses: 
+Dual licensed under the MIT and GPL licenses:
 http://www.opensource.org/licenses/mit-license.php
 http://www.gnu.org/licenses/gpl.html
 
@@ -26,7 +26,7 @@ Load files in your HTML document. Make sure you also add the jQuery library.
 Example:
 
 	<script type="test/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="jquery.multirollover.js"></script>
+	<script type="text/javascript" src="jquery.multirollover.min.js"></script>
 
 Create your HTML like this:
 
