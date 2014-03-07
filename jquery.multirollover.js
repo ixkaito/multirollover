@@ -1,6 +1,6 @@
 /*
  * multiRollover - jQuery Plugin
- * version: 1.1 (Mon, 13 Jan 2014)
+ * version: 1.2 (Fri, 7 Mar 2014)
  * @requires jQuery v1.7 or later
  * IE 8 (IE9, if using transparent PNG) or later
  *
@@ -45,7 +45,7 @@
 				if(p == 'static' || p == 'relative'){
 
 					if( $(this).css('display') == 'inline' && !$(this).parent().hasClass('multirollover-image')){
-						$(this).wrap('<span class="multirollover-image" style="position:relative; display:inline-block;">');
+						$(this).wrap('<span class="multirollover-image" style="position:relative; display:inline-block; max-width:100%;">');
 						$(this).css('position','static');
 					}
 
